@@ -12,7 +12,8 @@
       "disabled": false,
       "autoApprove": [
         "create_entities",
-        "create_relations"
+        "create_relations",
+        "add_observations"
       ]
     },
     "duckdb": {
