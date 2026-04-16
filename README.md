@@ -13,15 +13,11 @@
 
 ### Demo 1 — 自然语言查询 → SQL → 结果
 
-https://github.com/user-attachments/assets/kiro-data-agent-demo-01.mp4
-
-<video src="images/kiro-data-agent-demo-01.mp4" controls width="100%"></video>
+https://github.com/user-attachments/assets/c64af1f2-862c-470f-ae30-25325ded90c1
 
 ### Demo 2 — Notebook 生成与可视化
 
-https://github.com/user-attachments/assets/kiro-data-agent-demo-02.mp4
-
-<video src="images/kiro-data-agent-demo-02.mp4" controls width="100%"></video>
+https://github.com/user-attachments/assets/3e3b340b-c40d-42da-a4d3-437c8e42bd38
 
 ## 为什么做这个？
 
