@@ -4,3 +4,4 @@ __pycache__/
 .ipynb_checkpoints/
 memory.jsonl
 .DS_Store
+*.mp4
