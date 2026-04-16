@@ -1,0 +1,20 @@
+# Core - Jupyter Notebook 运行环境
+ipykernel>=7.0
+nbformat>=4.2.0
+
+# Dashboard + 交互控件
+voila>=0.5
+ipywidgets>=8.0
+
+# SQL in Notebook
+jupysql>=0.11
+duckdb>=1.5
+duckdb-engine>=0.17
+
+# 数据处理 + 可视化
+pandas>=3.0
+numpy>=2.4
+matplotlib>=3.10
+networkx>=3.4
+yfiles-jupyter-graphs>=1.10
+plotly>=6.0

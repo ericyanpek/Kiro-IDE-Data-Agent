@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "memory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "env": {
+        "MEMORY_FILE_PATH": "./memory.jsonl"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "create_entities",
+        "create_relations"
+      ]
+    },
+    "duckdb": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-duckdb",
+        "--db-path",
+        "./data/orders.duckdb"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "query"
+      ]
+    }
+  }
+}

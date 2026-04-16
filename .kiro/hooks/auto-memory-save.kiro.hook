@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "name": "Auto Memory on Stop",
+  "description": "每次 Agent 对话结束时，自动回顾对话内容，提取值得长期记住的信息（设计决策、技术方案、踩坑经验、用户偏好），调用 memory 工具存入知识图谱。如果对话只是简单问答没有新知识则跳过。",
+  "version": "1",
+  "when": {
+    "type": "agentStop"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "回顾刚才的对话，提取值得长期记住的信息（新的设计决策、技术方案、踩坑经验、用户偏好）。如果有新知识，调用 mcp_memory_create_entities 和 mcp_memory_create_relations 存入知识图谱；如果已有实体需要补充信息，用 mcp_memory_add_observations。如果对话只是简单问答没有新知识，则跳过不做任何操作。"
+  }
+}
